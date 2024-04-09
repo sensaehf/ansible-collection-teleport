@@ -1,0 +1,34 @@
+---
+namespace: sensa
+name: teleport
+version: 0.0.1
+readme: README.md
+authors:
+  - "Garðar Arnarsson (https://github.com/gardar)"
+description: "Ansible Collection for Gravitational Teleport"
+license_file: LICENSE
+tags:
+  - teleport
+  - authentication
+  - ssh
+  - certificates
+  - vpn
+  - zero_trust
+  - kubernetes
+  - security
+  - access_control
+  - identity
+  - audit
+  - compliance
+  - rbac
+repository: "https://github.com/sensaehf/ansible-collection-teleport"
+issues: "https://github.com/sensaehf/ansible-collection-teleport/issues"
+build_ignore:
+  - .config
+  - .github
+  - .gitignore
+  - changelogs
+  - roles/*/molecule
+  - tests
+  - '*test-requirements.txt'
+  - '*.tar.gz'
