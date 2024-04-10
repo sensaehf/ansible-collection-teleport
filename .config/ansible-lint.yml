@@ -1,0 +1,3 @@
+---
+warn_list:
+  - galaxy[version-incorrect]  # until collection gets bumped to 1.x.x
